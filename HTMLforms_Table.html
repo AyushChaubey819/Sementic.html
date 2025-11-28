@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms Example</title>
+
+</head>
+<body style="background-color: #f0f8ff; font-family: Arial, sans-serif; text-align: center; padding: 20px;justify-self: center;">
+    <h1>Registration Form</h1>
+
+
+
+<form action="/submit" method="post">
+    <fieldset>
+        <legend>Registration Form</legend>
+
+        <label>Name:</label>
+        <input type="text" required><br><br>
+
+        <label>Email:</label>
+        <input type="email" required><br><br>
+
+        <label>Password:</label>
+        <input type="password" minlength="6" required><br><br>
+
+        <label>Gender:</label>
+        <input type="radio" name="g" value="m"> Male
+        <input type="radio" name="g" value="f"> Female <br><br>
+
+        <label>Skills:</label>
+        <input type="checkbox"> HTML
+        <input type="checkbox"> CSS
+        <input type="checkbox"> JS <br><br>
+
+        <label>Country:</label>
+        <select>
+            <option>India</option>
+            <option>USA</option>
+        </select><br><br>
+
+        <label>Message:</label>
+        <br>
+        <textarea></textarea><br><br>
+        <style>
+            button {
+                background-color: #4CAF50;
+                color: white;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+
+
+            button:hover {
+                background-color: #45a049;
+            }
+            
+        </style>
+
+        <button type="submit">Register</button>
+    </fieldset>
+</form>
+                <tr>
+                    <td><textarea name="requests" rows="4" cols="30" placeholder="Enter any special requests here"></textarea></td>
+                </tr>
+        </td>
+</body>
+</html>
+
+    <footer>
+      <em> 2024 REGISTRATION FORM</em>
+    </footer>
