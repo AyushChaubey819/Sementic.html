@@ -5,21 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body style="border: 2px solid black; align :center; padding: 20px; max-width: 1000px; margin: auto; height: 600px;">
-   <h1>Student Registration Form</h1>
+<body style="border: 3px solid black; align :center; padding: 20px; max-width: 1000px; margin: auto; height: 600px;">
+
+   <h1 align="center">Student Registration Form</h1>
    <hr>
+   
     <form action="#" method="POST">
      <label for="fullname">Full Name:</label>
-     <input type="text" id="fullname" name="fullname" required>
+     <input type="text" id="fullname" name="fullname" placeholder="Enter your Full Name" required>
+     
      <br><br>
 
      <label for="email">Email:</label>
-     <input type="email" id="email" name="email" required>
+     <input type="email" id="email" name="email" placeholder="Enter Valid Email Address" required>
         <br><br>
 
        
      <label for="password">Password:</label>
-     <input type="password" id="password" name="password" required>
+     <input type="password" id="password" name="password" placeholder="Enter your Password" required>
      <br><br>
      Gender:
      <input type="radio" id="male" name="gender" value="male" required>   
@@ -43,7 +46,7 @@
         <br><br>
 
         Contact No:
-     <input type="tel" id="Contact" name="Contact" pattern="[0-9]{10}" required>
+     <input type="tel" id="Contact" name="Contact" pattern="[0-9]{10}"  placeholder="Enter your Phone No." required>
      <br><br>
 
 
@@ -53,13 +56,10 @@
 
         <label for="address" width="300" height="70">Address Line:</label>
         <select id="Address" name="Address" required></select>
-     <input type="text" id="address" name="address" required> 
-
-      
-    
+        <br>
+        
+        <textarea name="Address" id="required" rows="5" cols="60" placeholder="Enter your Address"></textarea>
         <br><br>    
-
-       
 
         <button type="submit">Register</button>
     
@@ -74,8 +74,8 @@
     </footer>
         
 
-<h2>Outcome</h2>
 
+   
 </body>
 
 </html>
