@@ -1,0 +1,31 @@
+h1{
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 600px;
+    padding: 5px;
+}
+body{
+    border : 1px solid black;
+    margin: 50px;
+    justify-self: center;
+}
+button{
+    background-color: blue;
+    color: white;
+    width: 100px;
+   justify-self: center;
+   h2{
+    color: 2px solid black;
+    text-align: left;
+   }
+   p2{
+    text-decoration: line-through;
+   }
+   p1{
+    color: green ;
+   }p{
+    display: flex;
+   
+   }
+}
