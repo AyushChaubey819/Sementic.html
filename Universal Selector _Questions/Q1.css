@@ -1,0 +1,10 @@
+*{
+    color : blue;
+}body{
+    background-color: white;
+    border : 2px solid black;
+    text-align: center;
+    justify-self: center;
+    padding : 20px;
+    font-size: 70px;
+}
