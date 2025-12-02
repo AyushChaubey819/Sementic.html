@@ -1,0 +1,16 @@
+
+
+h1{
+    color : red;
+    border : 2px solid rgb(145, 52, 52);
+    width: 700px;
+    justify-self: center;
+}
+body{
+    background-color: lightpink;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    border : 5px solid black;
+    margin: 20px;
+    color : white;
+}
