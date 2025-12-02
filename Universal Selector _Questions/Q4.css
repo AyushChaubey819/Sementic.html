@@ -1,0 +1,11 @@
+body{
+    background-color: lightgrey;
+    border : 3px solid black;
+    text-align: center;
+}
+*{
+    font-family: Arial, sans-serif;
+}
+title{
+    color: pink;
+}
