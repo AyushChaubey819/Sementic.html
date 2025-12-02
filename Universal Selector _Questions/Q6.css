@@ -1,0 +1,14 @@
+p{
+    color: black;
+}
+div  p{
+   color : brown;
+}
+body{ 
+    text-align: cenetr;
+    background-color: antiquewhite;
+    border : 3px solid black ;
+    justify-self: center;
+    padding : 20px;
+    
+}
