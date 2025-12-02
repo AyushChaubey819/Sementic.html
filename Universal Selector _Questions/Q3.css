@@ -1,0 +1,10 @@
+body{
+    background-color: lightgrey;
+    border : 3px solid black;
+    text-align: center;
+}
+.highlight {
+    background-color: yellow;
+    font-weight: bold  ;
+    coor : white;
+}
