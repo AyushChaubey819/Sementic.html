@@ -1,0 +1,16 @@
+.px{
+    font-size: 24px;
+
+}
+.rem{
+    font-size: 2rcm;
+}
+.box{
+    width : 50%;
+    height : 20vh;
+    background: coral;
+
+}
+html{
+    font-size: 10px;
+}
