@@ -1,7 +1,5 @@
 body{
-    background-color: white;
-   
-    
+    background-color: white; 
 
 }
 .container{
@@ -18,10 +16,11 @@ body{
 
 
 .box1, .box2, .box3, .box4{
+   
   
     padding: 20px;
     border-radius: 8px;
-    border-color: green;
+    
     width:300px;
     background-color: white;
     margin: 10px;
